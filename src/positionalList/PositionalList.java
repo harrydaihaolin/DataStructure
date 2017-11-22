@@ -1,6 +1,5 @@
 package positionalList;
 
-import positionalList.Position;
 
 public interface PositionalList<E>
 {

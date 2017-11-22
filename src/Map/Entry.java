@@ -1,4 +1,4 @@
-package priorityQueue;
+package Map;
 
 public interface Entry<K,V>
 {

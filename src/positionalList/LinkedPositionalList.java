@@ -1,6 +1,5 @@
 package positionalList;
 
-import javafx.geometry.Pos;
 
 public class LinkedPositionalList<E> implements PositionalList<E>
 {
@@ -159,5 +158,4 @@ public class LinkedPositionalList<E> implements PositionalList<E>
         node.setNext(null);
         return ans;
     }
-
 }
