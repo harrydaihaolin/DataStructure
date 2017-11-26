@@ -1,8 +1,8 @@
 package sorting;
 
+
 import Map.Comparator;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -12,6 +12,7 @@ public class QuickSort<K>
     public static void main(String[] args)
     {
         Comparator<Integer> comp = new Comparator<Integer>();
+
         Queue<Integer> S = new LinkedBlockingQueue<>();
         S.add(1);
         S.add(4);
@@ -19,7 +20,11 @@ public class QuickSort<K>
         S.add(2);
         S.add(5);
         quickSort(S, comp);
+        Integer[] S2 = {1,4,3,2,5};
         System.out.println(Arrays.toString(S.toArray()));
+        System.out.println(Arrays.toString(S2));
+        quickSortInPlace(S2, comp, 0, S2.length-1);
+        System.out.println(Arrays.toString(S2));
     }
 
     public static <K> void quickSort(Queue<K> S, Comparator<K> comp)
@@ -69,6 +74,8 @@ public class QuickSort<K>
                 temp = S[left];
                 S[left] = S[right];
                 S[right] = temp;
+                left++;
+                right--;
             }
         }
         temp = S[left];
