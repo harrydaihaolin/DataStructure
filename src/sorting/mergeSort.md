@@ -1,5 +1,3 @@
-# Sorting Algorithm
-
 ## Merge Sort
 
 #### Divide: partition S into n/2 elements
