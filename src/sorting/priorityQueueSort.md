@@ -29,17 +29,11 @@ Insertion sort is the variation of PQ sort where the PQ is implemented with a `s
 
 Basic idea:
 
-  Inserting the elements into the PQ with n insert operations takes time propotional to 1 + 2 + ... + n
-  
-  Removing the elements in `sorted order` from the PQ with a series of n removeMin operations takes O(N) time
+  Inserting the elements into the PQ with n insert operations takes time propotional to 1 + 2 + ... + n. Removing the elements in `sorted order` from the PQ with a series of n removeMin operations takes O(N) time.
   
 To do this in place:
 
-  A portion of the input sequence itself serves as the PQ
-  
-  we keep sorted the initial portion of the sequence
-  
-  we can use swaps instead of modifying the sequence
+  A portion of the input sequence itself serves as the PQ. We keep sorted the initial portion of the sequence. We can use swaps instead of modifying the sequence.
   
   Total time is O(n^2) time.
  
