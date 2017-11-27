@@ -5,5 +5,5 @@
 ## Sorting
   1. [mergeSort](https://github.com/harrydaihaolin/DataStructure/blob/master/src/sorting/mergeSort.md)
   2. [quickSort](https://github.com/harrydaihaolin/DataStructure/blob/master/src/sorting/quickSort.md)
-  3. [headSort](https://github.com/harrydaihaolin/DataStructure/blob/master/src/sorting/heapsort.md)
-  4. [priorityQueueSort](https://github.com/harrydaihaolin/DataStructure/blob/master/src/sorting/priorityQueueSort.md)
+  3. [headSort](https://github.com/harrydaihaolin/DataStructure/blob/master/src/sorting/heapsort.md)
+  4. [priorityQueueSort](https://github.com/harrydaihaolin/DataStructure/blob/master/src/sorting/priorityQueueSort.md)
