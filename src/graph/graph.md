@@ -4,11 +4,6 @@ A graph is a pair (V,E), where
   - V is a set of nodes called `vertices`
   - E is a collection of pairs of vertices, called `edges`
   - Vertices and edges are positions and store elements.
-  
-## Directories
-- [Types](#Types)
-- [Terminology](#Terminology)
-
 ### Types
 - Directed Edge
   - ordered pair of vertices (u,v)
@@ -106,7 +101,12 @@ vertices of G
 - A forest is an undirected graph without cycles
 -	The connected components of a forest are trees 
 ### Spanning Trees and Forests
--	A spanning tree of a connected graph 
+-	A spanning tree of a connected graph is a spanning subgraph that 
+is a tree
+-	A spanning tree is not unique unless the graph is a tree
+-	Spanning trees have applications to the design of communication networks
+-	A spanning forest of a graph is a spanning subgraph that is a forest
+
 
 
 
