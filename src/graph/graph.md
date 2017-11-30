@@ -7,6 +7,7 @@ A graph is a pair (V,E), where
   
 ## Directories
 - [Types](#Types)
+- [Terminology](#Terminology)
 
 ### Types
 - Directed Edge
