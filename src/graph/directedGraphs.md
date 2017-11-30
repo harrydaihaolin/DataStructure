@@ -29,3 +29,80 @@ determines the vertices reachable from s
 -	Strong Connectivity
 	- 	Each vertex can reach all other vertices
 
+### Transitive Closure
+-	G(star) has the same vertices as G
+-	G(star) has a directed edge u -> v
+### Computing the TC
+-	We can perform DFS starting at each vertex
+-	O(n(n+m))
+### Floyd-Warshall Transitive Closure
+-	
+###	DAGs and Topological Ordering
+-	A `directed acyclic` graph is a digraph that has
+no directed cycles.
+-	A `topological ordering` of a digraph is a numbering
+V1, ... ,Vn of the vertices such that for every edge (v[i], v[j]),
+We have i < j
+-	a digraph admits a topological ordering iff it is a DAG
+
+###	Topological Sorting
+-	Running time: O(n+m) time 
+```
+Algorithm TopologicalSort(G)
+	H <-- G
+	n <-- G.numVertices()
+	while H is not empty do
+		let v be a vertex with no outgoing edges
+		label v <-- n
+		n <-- n-1
+		remove v from H
+```
+```
+Algorithm topologicalDFS(G)
+	Input: DAG G
+	Output: topological ordering of G
+	n <-- G.numVertices()
+	for all u is within G.vertices()
+		setLabel(u, UNEXP)
+	for all s is within G.vertices()
+		if getLabel(s) = UNEXP
+			topologicalDFS(G, s)
+```
+```
+procedure topologicalDFS(G,v)
+	Input: DAG G and a start vertex v
+	Output: labelling of the vertices of G in the DFS
+	setLabel(v, VISITED)
+	for all e is within G.outEdges(v)
+		# outgoing edges
+		w <-- opposite(v,e)
+		if getLabel(w) = UNEXP
+			# e is a discovery edge
+			topologicalDFS(G, w)
+		else
+			# e is a forward or cross edge
+	Label v with topological number n
+	n <-- n-1
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
