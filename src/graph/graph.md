@@ -106,7 +106,7 @@ is a tree
 -	A spanning tree is not unique unless the graph is a tree
 -	Spanning trees have applications to the design of communication networks
 -	A spanning forest of a graph is a spanning subgraph that is a forest
-
+`
 
 
 
