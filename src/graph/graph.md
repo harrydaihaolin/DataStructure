@@ -1,9 +1,13 @@
 # Graph
 
-- A graph is a pair (V,E), where
+A graph is a pair (V,E), where
   - V is a set of nodes called `vertices`
   - E is a collection of pairs of vertices, called `edges`
   - Vertices and edges are positions and store elements.
+  
+## Directories
+- [Types](#Types)
+
 ### Types
 - Directed Edge
   - ordered pair of vertices (u,v)
