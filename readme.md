@@ -1,6 +1,6 @@
 ## WELCOME TO EECS 2011 Data Structure and Algorithm Analysis!
     
-### This page serves as a directory to lead you to each part.
+## Table of Contents
 
 ## Sorting
 1. [mergeSort](https://github.com/harrydaihaolin/DataStructure/blob/master/src/sorting/mergeSort.md)
